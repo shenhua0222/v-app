@@ -1,21 +1,86 @@
-# v-app
-
-> A Vue.js project
-
-## Build Setup
-
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+# vue.js中文网
+ 
+## 预览
+国外服务器：可能有点慢
+ 
+[在线预览](https://app102.herokuapp.com/#/)
+ 
+ 
+ 
+## 技术栈
+ 
+ - vue-cli
+ - vue2.0
+ - vue-router
+ - axios
+ - less 
+ 
+## 实现功能
+ 
+ 1. 用户登录
+ 2. 下拉加载
+ 3. 主题发布
+ 4. 主题收藏
+ 5.  回复评论
+ 6. 个人中心
+ 
+## 执行项目
+ 
 ``` bash
 # install dependencies
 npm install
-
+ 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+ 
+ 
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+ 
+## 总结
+ 
+ - 没用ui框架，界面不够美观
+ - bottom组件中，绑定style时，用原生进行了dom操作
+ - 时间原因，暂未移动适配；
