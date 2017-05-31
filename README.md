@@ -6,6 +6,10 @@
 国外服务器：可能有点慢
  
 [在线预览](https://app102.herokuapp.com/#/)
+
+![](https://github.com/shenhua0222/v-app/blob/master/static/b.jpg)
+
+![](https://github.com/shenhua0222/v-app/blob/master/static/a.jpg)
  
  
  
