@@ -46,4 +46,5 @@ npm run dev
 
  - 没用ui框架，界面不够美观
  - bottom组件中，绑定style时，用原生进行了dom操作
+ - 经测试，axios兼容ie，消耗了部分性能
  - 时间原因，暂未移动适配；
