@@ -105,12 +105,37 @@ export default {
 
  nav span {
    display:block;
-   width:100px;
+   width:120px;
    text-align:center;
    color:#E7E7E8;
    line-height:40px;
    font-size:14px;
+   position:relative;
+   transform: perspective(1px) translateZ(0);
+   -webkit-transform: perspective(1px);
  }
+
+ nav span:before {
+  content:'';
+  position:absolute;
+  z-index: -1;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:rgba(21,131,52,0.4);
+  transition:transform 0.3s ease-out;
+  -webkit-transition:transform 0.3s ease-out;
+  transform: scaleX(0);
+  transform-origin: 50%;
+  -webkit-transform-origin: 50%;
+ }
+
+nav span:hover:before {
+  transform: scaleX(1);
+  /*opacity:0;*/
+}
+
 
 #all > ul {
 	margin:5px 15px;
